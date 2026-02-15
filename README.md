@@ -7,6 +7,9 @@
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-orange)](https://huggingface.co/)
 
 ---
+# Live app :
+[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-green)](https://huggingface.co/spaces/surabhic/ai-medical-poster-generator)
+
 
 ## 📋 Overview
 
