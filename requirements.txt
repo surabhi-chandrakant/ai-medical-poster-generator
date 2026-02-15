@@ -1,0 +1,16 @@
+
+
+nltk>=3.8.1
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+huggingface_hub>=0.20.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Web Interface
+gradio>=4.0.0
+
+# Environment Variables
+

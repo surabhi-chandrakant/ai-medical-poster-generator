@@ -1,0 +1,334 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+.pyre/
+.pytype/
+.pyc/
+.pytest_cache/
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.hypothesis/
+.prof
+profile_stats/
+.pdm.toml
+.pdm-python
+.pdm.build/
+__pypackages__/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+myenv/
+virtualenv/
+.virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-*
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+/.vim/
+/.vscode/
+/.idea/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+*/.ipynb_checkpoints/*
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+.env.staging
+.flaskenv
+.djangoenv
+
+# Hugging Face
+.huggingface/
+.cache/huggingface/
+models/  # If you ever download models locally
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Output Files
+outputs/
+output/
+generated/
+temp/
+tmp/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+!assets/logo.png  # Keep default logo if you create one
+!assets/icons/*.png  # Keep icons if you create them
+!assets/fonts/*.ttf  # Keep fonts if you download them
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+.docker/
+
+# Project specific
+# Uncomment below if you want to exclude these
+# assets/logo.png  # If you want to keep your logo private
+# .env  # Already excluded above
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Windows specific
+Windows/
+Win32/
+Win64/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.dbfseventsd
+.documentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Testing
+*.pytest_cache/
+*.coverage
+*.htmlcov/
+*.tox/
+*.nox/
+*.hypothesis/
+*.cache/
+*.test/
+
+# Documentation
+docs/_build/
+docs/build/
+docs/source/.ipynb_checkpoints/
+site/
+*.rdb
+*.rdb-journal
+
+# Package manager
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+Gemfile.lock
+poetry.lock
+Pipfile.lock
+conda-lock.yml
+environment.yml
+setup.cfg
+
+# Development tools
+*.prof
+*.stats
+*.callgrind
+*.heap
+*.heapprof
+*.kcachegrind
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-*
+*.sublime-workspace
+*.komodoproject
+*.kpf
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.lnk
+*.local
+*.ini.bak
+
+# Project specific exclusions
+# Uncomment these if you want to exclude specific files
+# assets/logo.png  # If you want to keep your logo private
+# .env  # Already excluded above
+# config.local.py  # If you have local config
+
+# Temporary files created during generation
+temp_*.png
+temp_*.jpg
+preview_*.png
+generated_*.png
+api_*.png
+test_*.png
+debug_*.png
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bz2
+*.gz
+*.tgz
+
+# Keep these folders (with appropriate files)
+# Uncomment if you want to keep empty directories
+!.gitkeep
+
+# Production
+config.production.py
+config.prod.py
+secrets.yaml
+secrets.yml
+*.pem
+*.key
+*.crt
+*.cert
